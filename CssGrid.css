@@ -77,16 +77,11 @@ nav ul li:hover{
 }
 
 .columnbiggest{
-    width: ;
+    width: 100%;
     padding: 15px;
     text-align: center;
     border: solid lightgray 1px;
 }
-
-.columnbig p{
-    white-space: ;
-}
-
 
 
 .img1{
@@ -131,3 +126,9 @@ footer{
 }
 
 
+
+@media (max-width: 650px) {
+    .column, .columnbig, .columnbiggest, .columnsmall{
+        width: 100%;
+    }
+}
