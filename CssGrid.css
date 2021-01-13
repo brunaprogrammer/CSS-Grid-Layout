@@ -83,7 +83,6 @@ nav ul li:hover{
     border: solid lightgray 1px;
 }
 
-
 .img1{
     width: 50%;
 }
@@ -123,6 +122,10 @@ hr{
 footer{
     border: lightgray 1px solid;
     padding: 10px;
+}
+
+.cop{
+    text-align: center;
 }
 
 
