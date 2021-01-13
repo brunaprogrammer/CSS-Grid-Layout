@@ -12,6 +12,11 @@ h1{
     text-align: center;
 }
 
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+
 header p{
     text-align: center;
 }
@@ -69,6 +74,11 @@ nav ul li:hover{
     text-align: justify;
 }
 
+#Tro{
+    text-decoration: none;
+    color: black;
+}
+
 .columnsmall{
     width:30%;
     padding: 15px;
@@ -85,6 +95,11 @@ nav ul li:hover{
 
 .img1{
     width: 50%;
+}
+
+.img1m{
+    width: 1000px;
+    height: 450px;
 }
 
 .img2, .img3, .img4, .img5, .img6{
@@ -105,6 +120,11 @@ nav ul li:hover{
 
 h3{
     text-align: center;
+}
+
+h3 a{
+    text-decoration: none;
+    color: black;
 }
 
     
