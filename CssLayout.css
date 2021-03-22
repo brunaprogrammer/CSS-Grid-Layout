@@ -177,10 +177,16 @@ hr{
         flex-direction: column;
     }
 
+    .img1{
+        width: 100%;
+        height: auto;
+    }
+
     .img1m{
         width: 100%;
         height: auto;
     }
+
 
     
 
