@@ -169,4 +169,13 @@ hr{
     .column, .columnbig, .columnbiggest, .columnsmall{
         width: 100%;
     }
+
+    nav ul li a{
+        display: flex;
+        flex-direction: column;
+    }
+
+    figure{
+        max-width: 100%;
+    }
 }
