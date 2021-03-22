@@ -168,6 +168,8 @@ hr{
 @media (max-width: 650px) {
     .column, .columnbig, .columnbiggest, .columnsmall{
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     nav ul li a{
@@ -175,7 +177,4 @@ hr{
         flex-direction: column;
     }
 
-    figure{
-        max-width: 100%;
-    }
 }
