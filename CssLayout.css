@@ -177,11 +177,11 @@ hr{
         flex-direction: column;
     }
 
-    figure{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 100%;
-
+    .img1m{
+        width: 100%;
+        height: auto;
     }
+
+    
 
 }
