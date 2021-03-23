@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 0.5px;
+    font-family:  Helvetica, sans-serif;
+    letter-spacing: 0.1px;
 }
 
 header{
@@ -60,8 +60,12 @@ nav ul li:hover{
     color: slategray;
 }
 
+ul{
+    padding: 0;
+}
+
 p{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -83,6 +87,7 @@ p{
 .Tro{
     text-decoration: none;
     color: black;
+    width: 100%;
 }
 
 .columnsmall{
@@ -171,13 +176,16 @@ hr{
         display: flex;
         flex-wrap: wrap;
         text-align: justify;
-        
     }
 
     nav ul li a{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    h3{
+        text-align: center;
     }
 
     .img1{
